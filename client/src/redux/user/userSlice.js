@@ -7,8 +7,10 @@ const initialState = {
 };
 
 const userSlice = createSlice({
+  //name for this slice
   name: 'user',
   initialState,
+  //reducers are nothing but functions to be implemented 
   reducers: {
     signInStart: (state) => {
       state.loading = true;
@@ -61,6 +63,8 @@ const userSlice = createSlice({
   },
 });
 
+
+//in this we export every function as compnnent and its overall slice 
 export const {
   signInStart,
   signInSuccess,

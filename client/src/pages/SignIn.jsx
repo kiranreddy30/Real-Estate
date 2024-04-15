@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+//dispatch is used to send information to the store in redux
+// selector is used to retrive the information from the store
 import { useDispatch, useSelector } from 'react-redux';
 import {
   signInStart,
